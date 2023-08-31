@@ -16,6 +16,31 @@
     background-color: #fff;
     padding :20px;
  }
+ .about {
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ .row {
+     margin-left: 0 !important;
+     margin-right: 0 !important;
+ }
+
+ /*grid*/
+.container-grid,.row-grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.col-4{
+    grid-column: span 4;
+}
+
+.col-8{
+    grid-column: span 8;
+}
+
 /*carousel*/
  .carouselCaption{
     bottom:120px;
@@ -51,6 +76,10 @@
  .about{
     padding-top: 60px;
     padding-bottom: 60px;
+ }
+ section .row{
+    margin-left: 30px;
+
  }
  /*feature */
 .feature{
