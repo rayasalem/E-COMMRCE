@@ -1,5 +1,5 @@
 /*head*/
- .brand{
+.brand{
     width: 60px;
  }
  .dropdownMenu{
@@ -16,11 +16,34 @@
     background-color: #fff;
     padding :20px;
  }
- 
+ .about {
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+
  .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+ /*grid*/
+.container-grid,.row-grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+.row-grid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.col-4{
+    grid-column: span 4;
+}
+
+.col-8{
+    grid-column: span 8;
+}
+
 /*carousel*/
  .carouselCaption{
     bottom:120px;
@@ -57,6 +80,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
  }
+ section .row{
+    margin-left: 30px;
+
+ }
  /*feature */
 .feature{
     margin-bottom: 90px;
@@ -91,12 +118,6 @@ margin-top: 50px;
  .list-unstyle{
     margin-left: 10px;
  }
-.foote a{
-color: #fff;
-font-family: 'Courier New', Courier, monospace;
-font-size: large;
-}
-
 .foote a{
 color: #fff;
 font-family: 'Courier New', Courier, monospace;
