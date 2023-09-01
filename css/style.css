@@ -31,17 +31,20 @@
     display: grid;
     grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 10px;
+    text-align: left;
 }
-.row-grid {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
+
 .col-4{
     grid-column: span 4;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
 }
 
 .col-8{
     grid-column: span 8;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 /*carousel*/
