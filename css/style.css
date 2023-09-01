@@ -31,7 +31,6 @@
     display: grid;
     grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 10px;
-<<<<<<< HEAD
     text-align: left;
 }
 
@@ -40,15 +39,6 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
 
-=======
-}
-.row-grid {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-.col-4{
-    grid-column: span 4;
->>>>>>> e90f1de618f65b1a077c8f2367d5f0f12b761c61
 }
 
 .col-8{
