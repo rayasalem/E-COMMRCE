@@ -25,24 +25,9 @@
  .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
-}
- /*grid*/
-.container-grid,.row-grid{
-    display: grid;
-    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
-    gap: 10px;
-}
-.row-grid {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-.col-4{
-    grid-column: span 4;
+    align-items: left;
 }
 
-.col-8{
-    grid-column: span 8;
-}
 
 /*carousel*/
  .carouselCaption{
