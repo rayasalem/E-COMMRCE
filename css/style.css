@@ -2,20 +2,7 @@
 .brand{
     width: 60px;
  }
- .dropdownMenu{
-    background-color: rgb(121, 157, 179);
-    border-top: 3px solid blue;
-    min-width: 180px;
- }
- .dropdownMenu>li>a{
-    color: aliceblue;
-    padding:7px 20px;
- }
- .dropdownMenu>li>a:hover{
-    color: rgb(174, 196, 202);
-    background-color: #fff;
-    padding :20px;
- }
+
  .about {
      padding-left: 0;
      padding-right: 0;
