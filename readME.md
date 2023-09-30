@@ -46,10 +46,6 @@ The product section displays a collection of products available for purchase. Ea
 
 The footer contains site map links, links to social media profiles, and a subscription form for newsletters.
 
-## Usage
-
-1. Clone the repository: git clone https://github.com/yourusername/e-commerce.git
-2. Open the index.html file in a web browser to view the website.
 
 ## Contributing
 
